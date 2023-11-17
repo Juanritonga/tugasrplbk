@@ -1,0 +1,33 @@
+/* Profile.css */
+.profile-container {
+  margin: 10px;
+}
+
+/* Tambahkan ini ke file CSS Anda */
+.profile-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.profile-container {
+  width: 48%; /* Agar 2 kolom pada setiap baris */
+  margin: 10px;
+}
+/* ProfilePage.css */
+.profile-page-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.profile-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Tambahkan jika ingin memberikan ruang di antara kartu profil */
+.profile-card {
+  margin: 10px;
+}
+

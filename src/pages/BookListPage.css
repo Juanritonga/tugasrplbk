@@ -1,0 +1,72 @@
+/* BookListPage.css */
+
+.book-item {
+  flex: 0 0 calc(33.333% - 20px);
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  align-items: center; /* Align items vertically in the flex container */
+}
+
+.book-details {
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+.book-cover {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+
+
+.book-cover img {
+  max-width: 150px;
+  max-height: 200px;
+}
+
+.book-description {
+  text-align: justify;
+  margin-right: 10px; /* Remove default top margin for paragraphs */
+  text-indent: 30px;
+}
+
+.author-names {
+  font-size: 14px; /* Set the desired font size for author names */
+}
+
+form {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+button {
+  background-color: #008080;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
